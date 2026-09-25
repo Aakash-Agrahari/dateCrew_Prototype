@@ -1,3 +1,16 @@
-{ "name": "client", "type": "module", "scripts": { "dev": "vite" },
-  "dependencies": { "react": "^18.3.1", "react-dom": "^18.3.1" },
-  "devDependencies": { "@vitejs/plugin-react": "^4.3.1", "vite": "^5.4.0" } }
+{
+  "name": "client",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite"
+  },
+  "dependencies": {
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-react": "^4.3.1",
+    "vite": "^5.4.0"
+  }
+}
