@@ -1,0 +1,3 @@
+{ "name": "date-crew-prototype", "private": true, "type": "module",
+  "scripts": { "install:all": "npm --prefix server install && npm --prefix client install",
+    "server": "npm --prefix server start", "client": "npm --prefix client run dev" } }
